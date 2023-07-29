@@ -1,11 +1,5 @@
-/**
- * <div>
- *      <div>
- *          <h1></h1>
- *      </div>
- * </div>
- * 
- */
+import React from "react";
+import ReactDOM from"react-dom";
 
 const parent = React.createElement(
     'div',
@@ -14,7 +8,7 @@ const parent = React.createElement(
         React.createElement(
             'div', 
             {id: "child2"}, 
-            [React.createElement('h1', {key: 'heading1'}, 'I am an h1 tag'), 
+            [React.createElement('h1', {key: 'heading1'}, 'Hi'), 
             React.createElement('h2', {key: 'heading2'}, 'I am an h2 tag')]),
         React.createElement(
             'div', 
